@@ -8,9 +8,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.multithreading.MainActivity" >
 
-    <TextView
+    <Button
+        android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="131dp"
+        android:text="Button" />
 
 </RelativeLayout>
